@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./pets-shelter.css">
 </head>
 <body>
     <header class="header">
@@ -15,7 +16,7 @@
             <nav class="nav menu">
                 <ul class="nav-content">
                     <li class="nav-item"><a href="#main">About the shelter</a></li>
-                    <li class="nav-item"><a href="#pets">Our pets</a></li>
+                    <li class="nav-item nav-item-active"><a href="#pets">Our pets</a></li>
                     <li class="nav-item"><a href="#help">Help the shelter</a></li>
                     <li class="nav-item"><a href="#contacts">Contacts</a></li>
                 </ul>
@@ -24,46 +25,59 @@
     </header>
 
     <main>
-        <section class="ccontent-title">
-            <p> Our friends who
-                are looking for a house</p>    
-        </section>
+        <section class="wrapper pets">
+            <div class="content-title"> Our friends who <br>
+                are looking for a house</div>    
 
-        <section class="cards">
+        <div class="cards-container">
             <div class="card">
-                <img class="card-image" src="./images/pets-katrine.png"
-                 <p class="card-text">Katrine</p>
+                <img class="card-image" src="./images/pets-katrine.png" alt="gray cat">
+                 <p class="card-title">Katrine</p>
                  <button class="button-secondary btn">Learn more</button>
             </div>
             <div class="card">
-                <img class="card-image" src="./images/pets-katrine.png"
-                 <p class="card-text">Katrine</p>
-                 <button class="button-secondary btn">Learn more</button>
-            </div><div class="card">
-                <img class="card-image" src="./images/pets-katrine.png"
-                 <p class="card-text">Katrine</p>
-                 <button class="button-secondary btn">Learn more</button>
-            </div><div class="card">
-                <img class="card-image" src="./images/pets-katrine.png"
-                 <p class="card-text">Katrine</p>
-                 <button class="button-secondary btn">Learn more</button>
-            </div><div class="card">
-                <img class="card-image" src="./images/pets-katrine.png"
-                 <p class="card-text">Katrine</p>
-                 <button class="button-secondary btn">Learn more</button>
-            </div><div class="card">
-                <img class="card-image" src="./images/pets-katrine.png"
-                 <p class="card-text">Katrine</p>
-                 <button class="button-secondary btn">Learn more</button>
-            </div><div class="card">
-                <img class="card-image" src="./images/pets-katrine.png"
-                 <p class="card-text">Katrine</p>
-                 <button class="button-secondary btn">Learn more</button>
-            </div><div class="card">
-                <img class="card-image" src="./images/pets-katrine.png"
-                 <p class="card-text">Katrine</p>
+                <img class="card-image" src="./images/pets-jennifer.png" alt="white dog">
+                 <p class="card-title">Jennifer</p>
                  <button class="button-secondary btn">Learn more</button>
             </div>
+                <div class="card">
+                <img class="card-image" src="./images/pets-woody.png" alt="laying dog">
+                 <p class="card-title">Woody</p>
+                 <button class="button-secondary btn">Learn more</button>
+            </div>
+                <div class="card">
+                <img class="card-image" src="./images/pets-sophia.png" alt="dog on a hand">
+                 <p class="card-title">Sophia</p>
+                 <button class="button-secondary btn">Learn more</button>
+            </div>
+            <div class="card">
+                <img class="card-image" src="./images/pets-timmy.png" alt="cat sitting">
+                 <p class="card-title">Timmy</p>
+                 <button class="button-secondary btn">Learn more</button>
+            </div>
+            <div class="card">
+                <img class="card-image" src="./images/pets-charly.png" alt="dog on sofa">
+                 <p class="card-title">Charly</p>
+                 <button class="button-secondary btn">Learn more</button>
+            </div>
+            <div class="card">
+                <img class="card-image" src="./images/pets-scarlet.png" alt="puppy">
+                 <p class="card-title">Scarlet</p>
+                 <button class="button-secondary btn">Learn more</button>
+            </div>
+            <div class="card">
+                <img class="card-image" src="./images/pets-freddie.png" alt="white cat">
+                 <p class="card-title">Freddie</p>
+                 <button class="button-secondary btn">Learn more</button>
+            </div>
+        </div>
+        <div class="pagination-button-container">
+            <button class="pagination-button pagination-disabled">&lt;&lt;</button>
+            <button class="pagination-button pagination-disabled">&lt;</button>
+            <button class="page-number"><p>1</p></button>
+            <button class="pagination-button">></button>                
+            <button class="pagination-button">>></button>
+        </div>
         </section>
     </main>
 
@@ -92,7 +106,7 @@
             
         </div>
         <div class="footer-puppy">
-            <img class="footer-puppy-photo" src="./images/footer-puppy.png">
+            <img class="footer-puppy-photo" src="./images/footer-puppy.png" alt="dog licking screen">
         </div>
     </div>
     </footer>
