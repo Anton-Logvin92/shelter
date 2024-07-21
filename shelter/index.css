@@ -41,7 +41,7 @@ ul {
     width: 443px;
     height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 .nav-item {
@@ -121,16 +121,14 @@ ul {
 }
 .about {
     display: flex;
-    height: 588px;
     justify-content: center;
     padding-top: 80px;
+    padding-bottom: 100px;
 }
 .about-puppy {
     display: flex;
     height: 408px;
     width: 300px;
-    margin-top: 80px;
-    margin-left: 175px;
     align-content: center;
     padding-right: 120px;
     
@@ -142,9 +140,10 @@ ul {
     line-height: 45.5px;
     color: #545454;
     width: 300px;
+    padding-top: 10px;
+    letter-spacing: 1px;
 }
 .about-content {
-   margin-top: 94px;
    width: 430px;
 }
 .about-text {
@@ -184,10 +183,11 @@ ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
     font-weight: 400;
-    line-height: 45.5px;
+    line-height: 47px;
     justify-content: center;
+    text-align: center;
     color: #545454;
-    margin-top: 80px;
+    margin-top: 75px;
 }
 .button-secondary {
     border: 2px solid #F1CDB3;
@@ -246,26 +246,30 @@ ul {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-top: 80px;
 }
 .help-list {
     display: flex;
-    flex-wrap: wrap;
-    width: 1026px;
+    flex-direction: column;
     align-items: center;
-    margin-top: 60px;
-    margin-bottom: 100px;
-
+    width: 100%;
+    max-width: 1026px;
+    padding-bottom: 101px;
+}
+.help-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 55px 120px;
+    width: 100%;
+}
+.help-row.second-row {
+    margin-top: 55px;
+    width: 84%;
 }
 .help-list-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1 1 20%;
-    margin: 0 auto;
-    margin-bottom: 55px;
-}
-.help-list-item:nth-child(n+6) {
-    flex: 1 1 25%;
 }
 .help-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -273,13 +277,14 @@ ul {
     font-weight: 400;
     line-height: 46px;
     color: #545454;
-    padding-top: 80px;
     width: 308px;
     text-align: center;
+    padding-bottom: 60px;
 }
 .help-list-icon {
     height: 60px;
     width: 60px;
+    margin-top: -3px;
 }
 .help-item-text {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -305,6 +310,7 @@ ul {
     font-weight: 400;
     line-height: 46px;
     color: #545454;
+    letter-spacing: 2px;
 }
 .donation-subtitle {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -313,6 +319,7 @@ ul {
     line-height: 17px;
     color: #545454;
     padding-top: 20px;
+    letter-spacing: 1px;
 }
 .credit-card {
     display: flex;
@@ -321,7 +328,7 @@ ul {
     border-radius: 9px;
     margin-top: 20px;
     align-items: center;
-    width: fit-content;
+    width: 320px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -336,6 +343,7 @@ ul {
     font-weight: 400;
     line-height: 23px;
     color: #545454;
+    letter-spacing: 1px;
 }
 .donation-legal-information {
     font-family: Arial, Helvetica, sans-serif;
@@ -347,6 +355,7 @@ ul {
 }
 .donation-dog {
     margin-right: 30px;
+    padding-top: 11px;
 }
 .footer-contacts, .footer-location {
     padding-top: 56px;
@@ -359,7 +368,7 @@ ul {
 }
 .contacts {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .contact-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -367,6 +376,7 @@ ul {
     font-weight: 400;
     line-height: 46px;
     color: #FFFFFF;
+    letter-spacing: 2px;
 }
 .mail-adress {
     font-family: Georgia, 'Times New Roman', Times, serif;
